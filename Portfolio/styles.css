@@ -1,0 +1,186 @@
+body {
+  background-color: #ececec;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .top-left {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .top-right ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .top-right li {
+    margin-right: 20px;
+  }
+  
+  .top-right a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .body-content {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .left-section {
+    margin-top: 100px;
+    padding: 10px;
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .left-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    margin-left: 10px;
+    margin-top: 74px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  a{
+    margin-right: 50px;
+  }
+a:hover{
+   color: #ececec;
+}
+
+.pr{
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+}
+h1{
+  font-weight: bold;
+}
+
+footer {
+  color: white;
+  background-color: #333;
+  text-align: center;
+  padding: 1px;
+}
+
+
+/* Contact */
+
+.header h1 {
+  margin: 0;
+}
+
+.section {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+.contact-form form label {
+  margin-left: 35%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  margin-left: 35%;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form form button {
+  margin-left: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footercontact{
+  text-align: center;
+   margin-top: 72px;
+   padding: 10px;
+}
+
+h2{
+  text-align: center;
+}
+
+
+/* About */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mov{
+   text-transform: uppercase;
+   margin-left: 50%;
+}
+
+.hov:hover{
+  color: #0F5298;
+}
